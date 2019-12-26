@@ -1,0 +1,14 @@
+.products {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.product {
+  padding: 1rem;
+  border: 1px solid #f0f0f0;
+
+  p {
+    font-size: 1.5rem;
+  }
+}
